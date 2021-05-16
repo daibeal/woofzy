@@ -134,6 +134,7 @@ body {
     text-align: center;
 
   }
+
 }
 
 /* Benefits Container */
@@ -176,6 +177,7 @@ h3 {
   text-align: center;
   background-color: #EF8172;
   color: white;
+
 }
 
 /* Dog image */
@@ -382,7 +384,7 @@ PRICING STYLES
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 85% }
 }
 
 /* The typewriter cursor effect */
