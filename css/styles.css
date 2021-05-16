@@ -333,7 +333,9 @@ PRICING STYLES
 .db-pricing-eleven.popular .price {
   padding-top: 80px;
 }
-
+.db-pricing-eleven:hover {
+  transform: scale(1.03);
+}
 .pricing-scheme {
   text-align: center;
 }
