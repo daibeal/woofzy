@@ -64,7 +64,7 @@ body {
 /* Benefits Container */
 .benefits-container {
 
-  margin-bottom: 10%;
+  /* margin-bottom: 10%; */
 
 }
 .col-benefits {
@@ -76,12 +76,13 @@ body {
 .fas {
   color:#EF8172;
   font-size: 60px;
-  margin: 13rem 5px 1rem 0;
+  margin: 4rem 1rem 0;
 }
 .fas:hover {
   color:#ff4c68;
   font-size: 70px;
-  margin: 13rem 0 1rem 0;
+  margin: 4rem 1rem 0;
+
 
 }
 h2 {
@@ -134,7 +135,7 @@ h3 {
 #pricing {
   margin: 10%;
   text-align: center;
-  padding: 
+  padding:
 }
 /*=============================================================
     Authour URL: www.designbootstrap.com
