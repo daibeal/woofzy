@@ -53,8 +53,19 @@ body {
   width: 60%;
   position: absolute;
   right: 23%;
+  transition-duration: 1s;
   /* position: absolute;
   z-index: 1; */
+}
+.main-pic:hover {
+  -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+ -webkit-transition-duration: 1s;
+ -moz-transition-duration: 1s;
+ -o-transition-duration: 1s;
+  transition-duration: 1s;
 }
 
 @media only screen and (max-width: 1028px) {
