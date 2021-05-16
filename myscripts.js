@@ -4,4 +4,4 @@
       interval: 1200
     })
   });
-</script>
+  
