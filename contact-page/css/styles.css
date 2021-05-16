@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #002E66;
+  --primary: #ff4c68;
   --secondary: #b17e44;
   --success: #28a745;
   --info: #17a2b8;
@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #002E66;
+  color: #ff4c68;
   text-decoration: none;
   background-color: transparent;
 }
@@ -1993,7 +1993,7 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #0068e6;
+  border-color: #ff4c68;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0, 46, 102, 0.25);
 }
@@ -2443,8 +2443,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #002E66;
-  border-color: #002E66;
+  background-color: #ff4c68;
+  border-color: #ff4c68;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2473,7 +2473,7 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #b17e44;
+  background-color: #ff4c68;
   border-color: #b17e44;
 }
 .btn-secondary:hover {
@@ -10045,8 +10045,8 @@ video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #b17e44;
-  opacity: 0.7;
+  background-color: #ff4c68;
+  opacity: 0.2;
   z-index: 1;
 }
 
@@ -10065,7 +10065,8 @@ video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: #ff4c68;
+  opacity: 50%;
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -10133,7 +10134,7 @@ video {
 .social-icons ul > li > a {
   display: block;
   color: white;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: #ff4c68;
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
