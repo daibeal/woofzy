@@ -62,6 +62,9 @@ body {
     position: static;
     transform: rotate(0);
   }
+  .container-fluid {
+    padding: 2% 2% 2%;
+  }
   #title {
     text-align: center;
   }
