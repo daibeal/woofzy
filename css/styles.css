@@ -380,6 +380,7 @@ PRICING STYLES
   animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
+  width: 50%;
 }
 
 /* The typing effect */
@@ -401,15 +402,26 @@ footer {
 }
 @media only screen and (max-width: 1028px)  {
   .footer-headline {
+
     font-family: 'Montserrat-Black', sans-serif;
 
     line-height: 1.5;
     color: white;
     margin-bottom: 1em;
     font-weight: bolder;
-    /* font-size: 00%; */
+
     text-align: center;
     font-size: 2rem;
+    width: 100%;
+    animation:
+      typing2 3.5s steps(40, end),
+      blink-caret .75s step-end 5s;
+
 
   }
+  @keyframes typing2 {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
 }
