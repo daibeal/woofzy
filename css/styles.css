@@ -14,11 +14,13 @@ h1 {
   animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end 5s;
+
 }
 
 #title {
   background-color: #ff4c68;
   color: white;
+  padding-bottom: 9rem;
 }
 
 .container-fluid {
@@ -106,7 +108,8 @@ body {
   }
   #title {
     text-align: center;
-    height: 93.75rem;
+    
+    padding-bottom: 9rem;
 
   }
 
