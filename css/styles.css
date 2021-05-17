@@ -134,17 +134,7 @@ body {
   .end{
     text-align: center;
   }
-  .footer-headline {
-    font-family: 'Montserrat-Black', sans-serif;
-    size: 2.5rem;
-    line-height: 1.5;
-    color: white;
-    margin-bottom: 1em;
-    font-weight: bolder;
-    font-size: 300%;
-    text-align: center;
 
-  }
 
 }
 
@@ -408,4 +398,18 @@ footer {
   text-align: center;
   background-color: white;
 
+}
+@media only screen and (max-width: 1028px)  {
+  .footer-headline {
+    font-family: 'Montserrat-Black', sans-serif;
+
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 1em;
+    font-weight: bolder;
+    /* font-size: 00%; */
+    text-align: center;
+    font-size: 2rem;
+
+  }
 }
