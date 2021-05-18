@@ -28,7 +28,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/daibeal/woofzy">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://daibealdotcom.files.wordpress.com/2021/05/cleanshot-2021-05-16-at-21.52.19.gif?w=800" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
