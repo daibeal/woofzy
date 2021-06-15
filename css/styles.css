@@ -341,17 +341,35 @@ PRICING STYLES
 .db-pricing-eleven.popular .price {
   padding-top: 80px;
 }
-.db-pricing-eleven {
-  transform: scale(1);
-  transition-duration: 1s;
-}
-.db-pricing-eleven:hover {
-  transform: scale(1.03);
-  transition-duration: 1s;
-}
+
 .pricing-scheme {
   text-align: center;
 }
+@media only screen and (min-width : 1000px) {
+
+    .db-pricing-eleven {
+
+      transform: scale(1);
+      transition-duration: 1s;
+    }
+    .db-pricing-eleven:hover {
+      transform: rotateZ(5deg) scale(1.2);
+      transition-duration: 1s;
+    }
+    .db-wrapper:hover{
+      filter: brightness(105%);
+      -webkit-box-shadow: -50px 1px 5px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -50px 1px 5px 9px rgba(0,0,0,0.75);
+    box-shadow: -50px 1px 5px 9px rgba(0,0,0,0.75);
+    transition-duration: 1s;
+
+    }
+    .db-wrapper:hover .btn-sign{
+      filter: invert();
+      transform: scale(1.2);
+      transition-duration: 1s;
+    }
+  }
 
 .text-pricing {
   text-align: center;
