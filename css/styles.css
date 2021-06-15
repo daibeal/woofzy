@@ -369,6 +369,18 @@ PRICING STYLES
       transform: scale(1.2);
       transition-duration: 1s;
     }
+    #chi-plan:hover{
+      -webkit-box-shadow: -50px -10px 5px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -50px -10px 5px 9px rgba(0,0,0,0.75);
+    box-shadow: -50px -10px 5px 9px rgba(0,0,0,0.75);
+      position: absolute;
+      z-index:99;
+      transition-duration: 2s;
+
+    }
+    .btn-sign:hover{
+      background-color: red;
+    }
   }
 
 .text-pricing {
