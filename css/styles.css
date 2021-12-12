@@ -35,6 +35,15 @@ h1::after{
 body {
   font-family: 'Montserrat';
 }
+#title{
+  height: 60rem;
+}
+/* .benefits-container{
+  height: 90rem;
+} */
+#testimonials{
+  height: 30rem;
+}
 
 /* Navigation bar */
 .navbar {
@@ -144,9 +153,7 @@ body {
 }
 
 /* Benefits Container */
-.benefits-container {
-  /* margin-bottom: 10%; */
-}
+
 
 .col-benefits {
   text-align: center;
@@ -220,19 +227,9 @@ h3 {
 #pricing {
   margin: 10%;
   text-align: center;
-  padding:
+  padding: auto;
 }
 
-/*=============================================================
-    Authour URL: www.designbootstrap.com
-
-    http://www.designbootstrap.com/
-
-    License: MIT
-========================================================  */
-/*============================================================
-BACKGROUND COLORS
-============================================================*/
 .db-bk-color-one {
   background-color: #f55039;
 }
@@ -404,6 +401,7 @@ PRICING STYLES
 
 } */
 .footer-headline {
+
   font-family: 'Montserrat-Black', sans-serif;
   size: 3.5rem;
   line-height: 1.5;
@@ -411,7 +409,7 @@ PRICING STYLES
   margin-bottom: 1em;
   font-weight: bolder;
   font-size: 300%;
-  text-align: left;
+  text-align: center;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -420,7 +418,7 @@ PRICING STYLES
   animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
-  width: 50%;
+  width: 75%;
 }
 
 /* The typing effect */
